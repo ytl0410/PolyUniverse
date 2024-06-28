@@ -58,16 +58,16 @@ X_MD = X_MD[Columns]
 
 prediction = model_1.predict(X_MD)
 score =  prediction.mean(axis=1)
-df['Tg'] = score
+df['Tg(℃)'] = score
 
 
 prediction = model_2.predict(X_MD)
 score =  prediction.mean(axis=1)
-df['Tm'] = score
+df['Tm(℃)'] = score
 
 
 prediction = model_3.predict(X_MD)
 score =  prediction.mean(axis=1)
-df['Td'] = score
+df['Td(℃)'] = score
 
 df.to_csv('Prediction_results.csv',index=False)
