@@ -21,4 +21,6 @@ pip install seaborn==0.13.0
 
 The pre-trained models needed for prediction can be found at: https://zenodo.org/records/12587825 or https://huggingface.co/ytl0410/PolyUniverse/tree/main. To predict polymer properties, place the dataframe containing the polymer's SMILES information into a .csv file, then use a command such as:
 
-`python Thermal_Property.py PBI.csv`
+```
+python Thermal_Property.py PBI.csv
+```
