@@ -1,5 +1,5 @@
 # PolyUniverse
-Generation of a Large-scale Polymer Library Using Rule-Based Polymerization Reactions for Polymer Informatics.
+Generation of a Large-scale Polymer Library Using Rule-Based Polymerization Reactions for Polymer Informatics. Codes for study https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00196f
 
 All generation results and small compounds datasets can be found at https://zenodo.org/records/12585902
 
